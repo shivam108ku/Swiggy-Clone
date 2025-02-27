@@ -24,7 +24,6 @@ function RestCard({restinfo}) {
         
         <div className='text-gray-600 h-7 text-[1vw] overflow-hidden mt-1'>{restinfo?.info?.cuisines.join(" ")}</div>
         
-        
         </div>
     </div>   
     </Link>
