@@ -27,7 +27,7 @@ function Restramenu() {
        },[])
 
   return (
-    <div className='w-[80%] mx-auto'>
+    <div className='w-[80%] mx-auto mt-20'>
       {
         RestData.map((menuItems)=><MenuCard key={menuItems?.card?.card?.title} menuItems={menuItems?.card?.card}></MenuCard>)
       }        
